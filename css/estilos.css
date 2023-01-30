@@ -2,7 +2,7 @@
     color: blue;
 }
 p, span{
-    color: red;
+    color: black;
     width: 300px;
 }
 body { background-color: black;}
@@ -41,6 +41,13 @@ section
     color: yellow;
     font-size: 23px;
     border: 1px solid orange;
+  }
+
+  #demo
+  {
+    color: rgba(1, 244, 5, 0.537);
+    font-size: 35px;
+    border: 5px solid orange;
   }
 
   .estaesmiclase

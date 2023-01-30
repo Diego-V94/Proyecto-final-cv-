@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+   <!-- <p id="demo"></p>
+    <script>
+        const txt = '{"name":"John", "age":30, "city":"New York"}'
+        const obj = JSON.parse(txt);
+        document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+    </script>
+    -->
+
+   
+   
+   
+    <!-- <p id="demo"></p>
+    <script>
+        const myObj = {name:"John", age:30, city:"New York"};
+        document.getElementById("demo").innerHTML = myObj.name;
+    </script>
+    -->
+    
+
+    <p id="demo">
+
+    </p>
+    <script> 
+    const persona = '{"nombre" : "diego",    "edad" : 28,    "nacionalidad" : "argentina"}';
+    const obj = JSON.parse(persona);
+    console.log(persona);
+    document.getElementById('demo').innerHTML = 
+    "nombre: " + obj.nombre + " "+
+    "edad: " + obj.edad + " "+
+    "nacionalidad: " + obj.nacionalidad;
+    </script>
+</body>
+</html>

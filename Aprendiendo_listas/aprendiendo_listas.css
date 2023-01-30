@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+section{
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 10px;
+}
+
+.lista_desordenada{
+    background-color: red;
+}
+
+.lista_ordenada{
+    background-color: blue;
+}
