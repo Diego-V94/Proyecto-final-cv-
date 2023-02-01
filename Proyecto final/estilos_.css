@@ -20,9 +20,6 @@ body
     min-height: 850px;
 
     display: grid;
-   /* grid-template-columns: auto auto ;
-    grid-template-rows: auto;*/
-
   }
 
   .derecha
@@ -163,4 +160,24 @@ h4{
   .experiencia_rol{
     line-height: 20px;
     text-align: left;
+    
+  }
+
+  @media (max-width: 500px)
+  {
+    .contenedor{
+      min-height: auto;
+    }
+    .izquierda
+  {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+    .derecha
+  {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+
+  
   }
